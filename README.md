@@ -79,7 +79,7 @@ const safeHtml = sanitizeHtml(parser.render('# Hello'))
 | Prop | Type | Default | Description |
 | --- | --- | --- | --- |
 | `text` | `string` | `''` | Markdown source |
-| `theme` | `object` | — | Per-instance theme plugin or theme config |
+| `theme` | `object` | `undefined` | Per-instance theme plugin or theme config |
 | `tabSize` | `number` | `2` | CSS tab size |
 | `scrollContainer` | `function` | `() => window` | Scroll target |
 | `top` | `number` | `0` | Scroll offset |
