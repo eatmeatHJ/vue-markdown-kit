@@ -7,9 +7,20 @@ test('mounts in Vue 2 and emits image-click with all image URLs', async () => {
     url: 'https://example.test/',
   })
 
-  globalThis.window = dom.window
-  globalThis.document = dom.window.document
-  globalThis.navigator = dom.window.navigator
+  Object.defineProperties(globalThis, {
+    window: {
+      configurable: true,
+      value: dom.window,
+    },
+    document: {
+      configurable: true,
+      value: dom.window.document,
+    },
+    navigator: {
+      configurable: true,
+      value: dom.window.navigator,
+    },
+  })
 
   const [{ default: Vue }, { default: VMdPreview }, { default: githubTheme }] =
     await Promise.all([
