@@ -101,7 +101,7 @@
   },
   "devDependencies": {
     "esbuild": "0.25.0",
-    "jsdom": "26.0.0",
+    "jsdom": "30.0.0",
     "typescript": "5.9.3",
     "vue": "2.7.16"
   },
