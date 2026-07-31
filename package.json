@@ -1,6 +1,6 @@
 {
   "name": "vue-markdown-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A small, auditable Markdown preview toolkit for Vue 2.",
   "keywords": [
     "vue",
