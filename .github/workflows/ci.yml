@@ -36,6 +36,9 @@ jobs:
       - name: Run build and tests
         run: npm test
 
+      - name: Verify committed distribution
+        run: git diff --exit-code -- lib
+
       - name: Audit production dependencies
         run: npm audit --omit=dev
 
