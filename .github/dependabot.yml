@@ -12,7 +12,7 @@ updates:
           - ">=3.0.0"
       - dependency-name: jsdom
         versions:
-          - ">=30.0.0"
+          - ">=27.0.0"
 
   - package-ecosystem: github-actions
     directory: /
