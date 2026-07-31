@@ -94,7 +94,7 @@
     "dompurify": "3.4.12",
     "highlight.js": "11.11.1",
     "markdown-it": "14.2.0",
-    "markdown-it-attrs": "4.3.1"
+    "markdown-it-attrs": "5.0.1"
   },
   "peerDependencies": {
     "vue": "^2.6.14 || ^2.7.0"
