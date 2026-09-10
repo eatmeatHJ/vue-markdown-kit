@@ -102,6 +102,13 @@ step. Applications that do not need raw HTML can pass `html: false` when
 creating a custom renderer. Keep all runtime dependencies updated and apply
 an application-level Markdown input length limit.
 
+## Release
+
+Publishing is automated with npm Trusted Publishing. After the trusted
+publisher is configured for `.github/workflows/publish.yml`, publish a GitHub
+Release whose tag matches the version in `package.json`. The workflow runs the
+full package checks before publishing to npm.
+
 ## License
 
 MIT. See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md).
