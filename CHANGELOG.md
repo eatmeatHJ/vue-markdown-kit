@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2
+
+- Keep the package metadata and the exported component version in sync.
+- Update DOMPurify to 3.4.15 to address its latest security advisory.
+- Update the transitive Nano ID development dependency to its patched release.
+
 ## 0.1.1
 
 - Update Markdown parsing dependencies and development tooling.
